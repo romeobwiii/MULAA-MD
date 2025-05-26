@@ -1,1 +1,47 @@
+# 🚀 MULAA MD – Multi-Device WhatsApp Bot
+
+![Bot Banner](https://capsule-render.vercel.app/api?type=waving&color=0:87CEEB,100:87CEEB&height=180&section=header&text=MULAA%20MD%20WHATSAPP%20BOT&fontSize=38&fontColor=ffffff&fontFamily=Roboto&animation=twinkling)
+
+📌 **MULAA MD** is a powerful multi-device **WhatsApp bot** packed with automation, smart responses, and advanced features!
+
+## ⚡ Features
+✅ **Automated Replies** – Smart AI-based responses.
+✅ **Custom Commands** – Flexible bot configurations.
+✅ **Advanced Moderation** – Anti-spam, link-blocking, and auto-deletion.
+✅ **Multi-Device Support** – Works on web, mobile, and desktop versions.
+✅ **Fast & Secure** – Optimized for performance and stability.
+
+## 🚀 Installation
+### **1️⃣ Fork the Repository**
+Click here 👉 [MULAA MD Repository](https://github.com/romeobwiii/MULAA-MD.git)
+
+### **2️⃣ Install Dependencies**
+Run this in your terminal:
+bash
+git clone https://github.com/romeobwiii/MULAA-MD.git
+cd MULAA-MD
+npm install
+
+
+*3️⃣ Set Up Environment*
+Create a `.env` file and add your *SESSION_ID*, bot name, and config options.
+
+*4️⃣ Start the Bot*
+bash
+node index.js
+
+🎭 *Now your bot is running!* 🎉
+
+*🛠️ Deployment Options*
+🔹 *Heroku* – [Deploy MULAA MD](https://deployment-h4bs.onrender.com)
+🔹 *Koyeb* – [Host Your Bot](https://app.koyeb.com/services/deploy)
+🔹 *Render, Replit, Railway, TalkDrove* – Alternative deployment options.
+
+*🌍 Connect with the Community*
+Join our *WhatsApp Group & Channel* for updates!
+[![WhatsApp Channel](https://img.shields.io/badge/JOIN-WHATSAAP%20CHANNEL-25D366?style=for-the-badge&logo=whatsapp)](https://whatsapp.com/channel/0029Vakd0RY35fLr1MUiwO3O)
+
+*⚠️ Disclaimer*
+*This bot is for educational purposes.* Use responsibly! 🚀
+
 
