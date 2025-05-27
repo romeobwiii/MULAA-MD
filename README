@@ -1,47 +1,75 @@
-# 🚀 MULAA MD – Multi-Device WhatsApp Bot
 
+📌 MULAA MD – Multi-Device WhatsApp Bot
+markdown
 ![Bot Banner](https://capsule-render.vercel.app/api?type=waving&color=0:87CEEB,100:87CEEB&height=180&section=header&text=MULAA%20MD%20WHATSAPP%20BOT&fontSize=38&fontColor=ffffff&fontFamily=Roboto&animation=twinkling)
 
-📌 **MULAA MD** is a powerful multi-device **WhatsApp bot** packed with automation, smart responses, and advanced features!
+🚀 **MULAA MD** is a powerful **multi-device WhatsApp bot** packed with automation, smart responses, and advanced features!
 
-## ⚡ Features
-✅ **Automated Replies** – Smart AI-based responses.
-✅ **Custom Commands** – Flexible bot configurations.
-✅ **Advanced Moderation** – Anti-spam, link-blocking, and auto-deletion.
-✅ **Multi-Device Support** – Works on web, mobile, and desktop versions.
-✅ **Fast & Secure** – Optimized for performance and stability.
+## **⚡ Features**
+✅ **Automated Replies** – Smart AI-driven responses
+✅ **Custom Commands** – Flexible bot configurations
+✅ **Advanced Moderation** – Anti-spam, link-blocking, and auto-deletion
+✅ **Multi-Device Support** – Works on web, mobile, and desktop versions
+✅ **Fast & Secure** – Optimized for speed and stability
 
-## 🚀 Installation
-### **1️⃣ Fork the Repository**
-Click here 👉 [MULAA MD Repository](https://github.com/romeobwiii/MULAA-MD.git)
-
-### **2️⃣ Install Dependencies**
-Run this in your terminal:
+## **🚀 Installation**
+### **1️⃣ Clone the Repository**
 bash
 git clone https://github.com/romeobwiii/MULAA-MD.git
 cd MULAA-MD
+
+
+*2️⃣ Install Dependencies*
+bash
 npm install
 
 
-*3️⃣ Set Up Environment*
-Create a `.env` file and add your *SESSION_ID*, bot name, and config options.
+*3️⃣ Set Up Environment Variables*
+Create a `.env` file and add your *SESSION_ID, BOT_NAME, MODE*, etc.
 
 *4️⃣ Start the Bot*
 bash
 node index.js
 
-🎭 *Now your bot is running!* 🎉
 
-*🛠️ Deployment Options*
-🔹 *Heroku* – [Deploy MULAA MD](https://deployment-h4bs.onrender.com)
-🔹 *Koyeb* – [Host Your Bot](https://app.koyeb.com/services/deploy)
-🔹 *Render, Replit, Railway, TalkDrove* – Alternative deployment options.
+🎭 *Now your bot is live!* 🎉
 
-*🌍 Connect with the Community*
-Join our *WhatsApp Group & Channel* for updates!
+*🔗 Deployment Options*
+✅ *Heroku* – [Deploy MULAA MD](https://deployment-h4bs.onrender.com)
+✅ *Koyeb* – [Host Your Bot](https://app.koyeb.com/services/deploy)
+✅ *Railway* – [Deploy on Railway](https://railway.app/new)
+✅ *Render, Replit, TalkDrove* – Alternative hosting solutions
+
+*💡 Contributors & Credits*
+This project is *made possible by an incredible team of developers and contributors!* 💡
+A huge *thank you* to the amazing minds behind *MULAA MD*!
+
+*👑 Lead Developer:*
+🔹 *Mulax* – Founder & Lead Developer
+
+*🛠 Contributors:*
+🔹 *Community Developers* – Enhancing & optimizing MULAA MD
+
+*Special Thanks:*
+✅ *Supporters & Beta Testers* – Helping improve the bot!
+
+
+*🏆 Badges & GitHub Stats*
+markdown
+<p align="center">
+<a href="https://github.com/romeobwiii/MULAA-MD"><img title="Repo Stars" src="https://img.shields.io/github/stars/romeobwiii/MULAA-MD?color=blue&style=flat-square"></a>
+<a href="https://github.com/romeobwiii/MULAA-MD"><img title="Repo Forks" src="https://img.shields.io/github/forks/romeobwiii/MULAA-MD?color=green&style=flat-square"></a>
+<a href="https://github.com/romeobwiii/MULAA-MD"><img title="Repo Size" src="https://img.shields.io/github/repo-size/romeobwiii/MULAA-MD?color=lightblue&style=flat-square"></a>
+<a href="https://github.com/romeobwiii/MULAA-MD/graphs/commit-activity"><img title="Active Maintained" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg"></a>
+</p>
+
+
+*🌍 Join the Community*
+Stay updated with the latest bot improvements!
+markdown
 [![WhatsApp Channel](https://img.shields.io/badge/JOIN-WHATSAAP%20CHANNEL-25D366?style=for-the-badge&logo=whatsapp)](https://whatsapp.com/channel/0029Vakd0RY35fLr1MUiwO3O)
 
-*⚠️ Disclaimer*
-*This bot is for educational purposes.* Use responsibly! 🚀
 
-
+*⚠ Disclaimer*
+markdown
+ This bot is for *educational purposes* only. Use responsibly
