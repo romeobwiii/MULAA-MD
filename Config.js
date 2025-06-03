@@ -1,71 +1,17 @@
-require('dotenv').config();
 const fs = require('fs');
-const chalk = require('chalk');
+if (fs.existsSync('config.env')) require('dotenv').config({ path: './config.env' });
 
-// Contact details
-global.ownernomer = process.env.OWNER_NOMER || "26776660902";
-global.ytname = process.env.YT_NAME || "YT: @mulaxtech";
-global.socialm = process.env.SOCIAL_M || "GitHub: Romeobwiii";
-global.location = process.env.LOCATION || "Botswana, Gaborone";
-
-// Creator details
-global.ownernumber = process.env.OWNER_NUMBER || '26776660902';
-global.ownername = process.env.OWNER_NAME || 'Mulax';
-global.botname = process.env.BOT_NAME || 'Mulaa';
-
-// Default settings 
-global.prefa = process.env.PREFIX ? process.env.PREFIX.split(',') : ['', '!', '.', '#', '&'];
-// Settings: true=enable false=disable
-global.autoRecording = process.env.AUTO_RECORDING === 'true';
-global.autoTyping = process.env.AUTO_TYPING === 'true';
-global.autorecordtype = process.env.AUTO_RECORD_TYPE === 'true';
-global.autoread = process.env.AUTO_READ === 'true';
-global.autobio = process.env.AUTO_BIO !== 'false'; // default true
-global.anti92 = process.env.ANTI_92 === 'true';
-global.autoswview = process.env.AUTO_SW_VIEW !== 'false'; // default true
-global.welcome = process.env.WELCOME !== 'false'; // default true
-global.autoreact = process.env.AUTO_REACT === 'true';
-global.autolikestatus = process.env.AUTO_LIKE_STATUS === 'true';
-
-// Thumbnail profile picture
-global.elitepropp = process.env.ELITE_PRO_PP || 'https://i.ibb.co/jk0ynvbn/7a8c4b5b617fa11a1e9a61190f427546.jpg';
-// Default emoji
-global.themeemoji = process.env.THEME_EMOJI || '👨‍💻';
-
-
-// Sticker details
-global.packname = process.env.PACKNAME || 'Sticker By';
-global.author = process.env.AUTHOR || 'Mulax\n\nContact: +26776660902';
-// Default settings 2
-global.typemenu = process.env.TYPE_MENU || 'v2';
-global.wm = process.env.WM || "Youtube @EliteProTech";
-global.link = process.env.LINK || 'https://whatsapp.com/channel/0029VaXaqHII1rcmdDBBsd3g';
-
-// Text bug
-global.xbugtex = {
-    xtxt: '👨‍💻Mulaa👨‍💻',
+function convertToBool(text, fault = 'true') {
+    return text === fault ? true : false;
+}
+module.exports = {
+    SESSION_ID: process.env.SESSION_ID || "Maria-X~uMklnS5Q#-1AahU48K2s1H6zvb1yg6-39zBVsVI0QfdbGLUV02hU",
+    ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/by4go4.jpg",
+    ALIVE_MSG: process.env.ALIVE_MSG || "Hey there, I'm alive",
+    OWNER_NUMBER: process.env.OWNER_NUMBER || "26776660902",
+    MODE: process.env.MODE || "private",
+    PREFIX: process.env.PREFIX || "#",
+    BOT_NANE: process.env.BOT_NAME || "MULAA-MD",
+    AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "false",
+    OWNER_NAME: process.env.OWNER_NAME || "MULAX PRIME",
 };
-
-// Reply messages
-global.mess = {
-    done: '*⿻ DONE: Task completed ✔️*',
-    prem: '*⦿ This command is made for premium users.⁉️*',
-    admin: '*⦿ This command is made for group admins.‼️*',
-    botAdmin: '*⦿  Make bot admin to access commands⿻*',
-    owner: '*⦿This commands is made for bot owner.*',
-    group: '*⦿ This command is made for group chat❕*',
-    private: '*⦿ This command is made for private chat ⭕*',
-    wait: '*_⚙️PROCESSING DATA......_*',
-    error: '*‼️AN ERROR OCCUR‼️*',
-};
-
-global.thumb = fs.readFileSync('./EliteProMedia/thumb.jpg');
-
-let file = require.resolve(__filename);
-fs.watchFile(file, () => {
-    fs.unwatchFile(file);
-    console.log(chalk.redBright(`Update'${__filename}'`));
-    delete require.cache[file];
-    require(file);
-});
-    
